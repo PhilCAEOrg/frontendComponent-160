@@ -51,26 +51,6 @@ var initClient = function(y) {
   console.log("Client initialized");
 };
 
-// loadSongs
-var loadSongs = function(){
-
-//start variable declaration
-   var testReturnParam = null;
-
-//end variable declaration
-
-  client.sendRequest("GET", "songs", "", "", {}, false,
-  function(data, type) {
-    console.log(data);
-  },
-  function(error) {
-    console.log(error);
-  });
-
-  //Additional own javascript
- return testReturnParam;
-}
-
 
 $(document).ready(function() {
   init();
