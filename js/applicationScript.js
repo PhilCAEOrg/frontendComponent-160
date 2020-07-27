@@ -51,6 +51,18 @@ var initClient = function(y) {
   console.log("Client initialized");
 };
 
+// loadSongs
+var loadSongs = function(){
+
+//start variable declaration
+
+//end variable declaration
+
+
+  //Additional own javascript
+
+}
+
 
 $(document).ready(function() {
   init();
