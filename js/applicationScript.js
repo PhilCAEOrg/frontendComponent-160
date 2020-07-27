@@ -58,6 +58,13 @@ var loadSongs = function(){
 
 //end variable declaration
 
+  client.sendRequest("GET", "songs", "", "", {}, false,
+  function(data, type) {
+    console.log(data);
+  },
+  function(error) {
+    console.log(error);
+  });
 
   //Additional own javascript
 
